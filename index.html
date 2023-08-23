@@ -3,14 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>astrounaout</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-1%5B1%5D.png" alt="astrounaout1" id="astrounaut1">
-    <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-2%5B1%5D.png" alt="astrounaut2" id="astrounaut2">
-    <div>
-        
-    </div>
+    <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-1%5B1%5D.png" alt="Astronaut Image" id="Astronaut-1">
+    <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-2%5B1%5D.png" alt="Astronaut Image 2" id="Astronaut-2">
+
+    <form action="">
+        <h1>Rocket around the moon with your BFFs</h1>
+        <label for="Country" id="countrytext">
+            Departure Country
+        </label>
+        <select name="" id="Country">
+            <option value="India">India</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+        </select>
+        <label for="Number" class="block-display" id="NumberText">No. of Space Travellers</label>
+        <input type="text" id="Number">
+        <label for="mail" class="block-display" id="mailtext">Your Email</label>
+        <input type="email" placeholder="ilovespace@gmail.com" id="mail">
+
+        <label for="SpaceSuit" class="block-display" id="rentspacesuit">Do You Want to Rent a Space Suit?</label>
+        <input type="radio" id="SpaceSuit">
+        <label for="" id="spacesuittext">Yes, Please</label>
+        <input type="radio" id="SpaceSuit1">
+        <label for="" id="spacesuit1text">No, I have my Own</label>
+
+        <input type="submit" value="TAKE US TO SPACE" id="finalbutton">
+    </form>
 </body>
 </html>
